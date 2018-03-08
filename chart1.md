@@ -12,3 +12,11 @@ Never use 3D unless you are plotting three-dimensional data.
 4. Beware of pie charts. Most readers cannot accurately estimate sizes of different slices.
 Consider other ways to show part-to-whole relationships, such as bar/column charts, or stacked bar/column charts.
 
+
+
+
+#### Converting image to 300dpi
+
+```
+convert -units PixelsPerInch input.png -density 300 output.png
+```
