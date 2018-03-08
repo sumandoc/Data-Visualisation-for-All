@@ -17,6 +17,17 @@ Consider other ways to show part-to-whole relationships, such as bar/column char
 
 #### Converting image to 300dpi
 
+
+
+
 ```
 convert -units PixelsPerInch input.png -density 300 output.png
 ```
+
+For PNG to TIFF conversion use: 
+
+```
+convert -set units PixelsPerInch input.png -density 300 output.png
+```
+
+
