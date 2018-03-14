@@ -27,7 +27,12 @@ convert -units PixelsPerInch input.png -density 300 output.png
 For PNG to TIFF conversion use: 
 
 ```
-convert -set units PixelsPerInch input.png -density 300 output.png
+convert -set units PixelsPerInch input.png -density 300 output.tiff
 ```
 
+Reducing size of file:
+
+```
+convert -strip -quality 90 big-image.jpg new-image.jpg
+```
 
